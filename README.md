@@ -6,6 +6,7 @@ Scneraio:
 
 
 Part 1: Setting up Account Landing Zone and Implementing SCP using Control Tower
+
 Step 1: Control Tower Deployment
 Objective:
 
@@ -14,6 +15,7 @@ Procedure:
 
 IAM administrator (iamadmin) initiates the creation of AWS Control Tower.
 The identity policy "Adminfullaccess" (default AWS managed policy) is attached to iamadmin for administrative privileges.
+
 Step 2: Organizational Unit (OU) Structure
 Objective:
 
@@ -23,6 +25,7 @@ Procedure:
 A default foundational OU named "Security" is established by Control Tower.
 This OU houses crucial accounts, including an audit and log account, for centralized security management.
 iamadmin introduces a custom OU, "2KC," under which specific member accounts will be organized.
+
 Step 3: Member Account Creation
 Objective:
 
@@ -31,6 +34,7 @@ Procedure:
 
 Two member accounts, "dev" and "qa," are provisioned within the custom "2KC" OU.
 These accounts serve as dedicated environments for development and quality assurance purposes.
+
 Step 4: Root OU Management
 Objective:
 
@@ -39,6 +43,7 @@ Procedure:
 
 The management account is positioned at the root level for overseeing and managing the entire account structure.
 This ensures centralized control and governance across the organization.
+
 Step 5: SCP Implementation
 Objective:
 
