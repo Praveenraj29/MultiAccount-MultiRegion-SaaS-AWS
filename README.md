@@ -58,6 +58,12 @@ Enforce governance and security measures using Service Control Policies (SCPs).
 ![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/3d7238bb-3cd7-4867-9c0b-37979c8c858c)
 ![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/7bdad29b-3c12-416d-a663-3bed898cf949)
 ![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/ba618aa4-0b51-4944-b9e0-d7f4c9ea7bfa)
+![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/e6565535-6186-47e8-a5f0-69f6e1aefa7c)
+![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/631794f7-a802-42d9-b06a-89fcbcf7d1cf)
+![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/f45f27e7-4f83-4627-bbb8-026956f0136b)
+
+
+
 
 
 
