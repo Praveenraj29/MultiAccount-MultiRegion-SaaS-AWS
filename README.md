@@ -1,5 +1,52 @@
 # MultiAccount-MultiRegion-SaaS-AWS
-AWS Project
+**AWS Project
+**
+Scneraio:
+2KC, a newly established company, is embarking on a greenfield initiative to structure its cloud infrastructure. With distinct organizational requirements, 2KC has designated development (dev) and quality assurance (qa) accounts to efficiently cater to its diverse needs.
+
+
+Part 1: Setting up Account Landing Zone and Implementing SCP using Control Tower
+Step 1: Control Tower Deployment
+Objective:
+
+Establish the foundation for multi-account management using AWS Control Tower.
+Procedure:
+
+IAM administrator (iamadmin) initiates the creation of AWS Control Tower.
+The identity policy "Adminfullaccess" (default AWS managed policy) is attached to iamadmin for administrative privileges.
+Step 2: Organizational Unit (OU) Structure
+Objective:
+
+Organize accounts within OUs to align with the company's structure.
+Procedure:
+
+A default foundational OU named "Security" is established by Control Tower.
+This OU houses crucial accounts, including an audit and log account, for centralized security management.
+iamadmin introduces a custom OU, "2KC," under which specific member accounts will be organized.
+Step 3: Member Account Creation
+Objective:
+
+Create distinct member accounts within the 2KC OU for specific organizational needs (dev and qa).
+Procedure:
+
+Two member accounts, "dev" and "qa," are provisioned within the custom "2KC" OU.
+These accounts serve as dedicated environments for development and quality assurance purposes.
+Step 4: Root OU Management
+Objective:
+
+Establish a clear hierarchy by placing the management account at the root level.
+Procedure:
+
+The management account is positioned at the root level for overseeing and managing the entire account structure.
+This ensures centralized control and governance across the organization.
+Step 5: SCP Implementation
+Objective:
+
+Enforce governance and security measures using Service Control Policies (SCPs).
+Procedure:
+
+IAM administrator defines SCPs within AWS Control Tower to regulate service access.
+SCPs are associated with relevant OUs, such as "2KC," to ensure that policies are applied to specific accounts.
 
 
 ![image](https://github.com/Praveenraj29/MultiAccount-MultiRegion-SaaS-AWS/assets/44286337/6f47ae6a-fdf8-410f-a44d-95c95f8fd752)
