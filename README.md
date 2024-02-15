@@ -1,11 +1,11 @@
 # MultiAccount-MultiRegion-SaaS in AWS
 
 
-Scneraio:
+#Scneraio:
 2KC, a newly established company, is embarking on a greenfield initiative to structure its cloud infrastructure. With distinct organizational requirements, 2KC has designated development (dev) and quality assurance (qa) accounts to efficiently cater to its diverse needs.
 
 
-Part 1: Setting up Account Landing Zone and Implementing SCP using Control Tower
+#Part 1: Setting up Account Landing Zone and Implementing SCP using Control Tower
 
 Step 1: Control Tower Deployment
 Objective:
