@@ -1,5 +1,5 @@
-# MultiAccount-MultiRegion-SaaS-AWS
-# AWS Project
+# MultiAccount-MultiRegion-SaaS in AWS
+
 
 Scneraio:
 2KC, a newly established company, is embarking on a greenfield initiative to structure its cloud infrastructure. With distinct organizational requirements, 2KC has designated development (dev) and quality assurance (qa) accounts to efficiently cater to its diverse needs.
